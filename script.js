@@ -247,4 +247,5 @@ function filterProducts() {
     const selected = document.getElementById('categoryFilter').value;
     const filtered = selected === 'all' ? allProducts : allProducts.filter(i => i.kategori === selected);
     renderProducts(filtered);
+
 }
